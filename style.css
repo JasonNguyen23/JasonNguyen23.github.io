@@ -458,7 +458,7 @@ button:focus {
 }
 
 .mu-skill-progress-bar h3 {
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 .mu-skill-progress-bar > span {
@@ -522,7 +522,7 @@ button:focus {
 }
 
 .mu-resume-btn {
-  margin-top: 30px;
+  margin-top: 13.5px;
   display: inline-block;
   padding: 10px 15px;
   font-size: 14px;
@@ -650,7 +650,8 @@ button:focus {
 .mu-portfolio-content {
   display: inline;
   float: left;
-  margin-top: 30px;
+  margin-top: 0px;
+  margin-bottom: 30px;
   width: 100%;
 }
 
@@ -662,7 +663,7 @@ button:focus {
 }
 
 .filtr-item {
-  margin-bottom: 0px;
+  margin-bottom: px;
   padding: 16px;
 }
 
@@ -678,7 +679,7 @@ button:focus {
   right: 16px;
   bottom: 16px;
   color: #fff;
-  padding-top: 25%;
+  padding-top: 15%;
   text-align: center;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -1036,6 +1037,10 @@ button:focus {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
+}
+
+.mu-filter-item-description {
+  padding-top: 0%;
 }
 
 /*--------------------*/
